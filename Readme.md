@@ -1,4 +1,3 @@
-
 # Front End Development with Vite
 
 Converting [Advance Notes App](https://www.youtube.com/watch?v=j898RGRw0b4) to different Front End Frameworks / Library
@@ -6,11 +5,9 @@ Converting [Advance Notes App](https://www.youtube.com/watch?v=j898RGRw0b4) to d
 ### TODO
 
 ```
-[ ] React
-    [ ] Tailwind
-    [ ] Animation
-    [ ] State Management
-    [ ] Unit Testing
+[/] React
+    [/] Tailwind
+    [/] State Management
     [ ] Firebase
         [ ] Authentication
         [ ] Storage
@@ -18,9 +15,7 @@ Converting [Advance Notes App](https://www.youtube.com/watch?v=j898RGRw0b4) to d
 
 [ ] Preact
     [ ] Tailwind
-    [ ] Animation
     [ ] State Management
-    [ ] Unit Testing
     [ ] Firebase
         [ ] Authentication
         [ ] Storage
@@ -28,9 +23,7 @@ Converting [Advance Notes App](https://www.youtube.com/watch?v=j898RGRw0b4) to d
 
 [ ] Svelte
     [ ] Tailwind
-    [ ] Animation
     [ ] State Management
-    [ ] Unit Testing
     [ ] Firebase
         [ ] Authentication
         [ ] Storage
@@ -38,9 +31,7 @@ Converting [Advance Notes App](https://www.youtube.com/watch?v=j898RGRw0b4) to d
 
 [ ] Vue
     [ ] Tailwind
-    [ ] Animation
     [ ] State Management
-    [ ] Unit Testing
     [ ] Firebase
         [ ] Authentication
         [ ] Storage
@@ -48,17 +39,9 @@ Converting [Advance Notes App](https://www.youtube.com/watch?v=j898RGRw0b4) to d
 
 [ ] Lit
     [ ] Tailwind
-    [ ] Animation
     [ ] State Management
-    [ ] Unit Testing
     [ ] Firebase
         [ ] Authentication
         [ ] Storage
         [ ] Firestore
 ```
-
-
-
-
-
-
