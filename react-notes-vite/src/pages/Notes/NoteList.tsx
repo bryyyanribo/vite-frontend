@@ -5,11 +5,12 @@ import ReactSelect from "react-select";
 import NoteCard from "../../components/NoteCard";
 import { NoteListProps } from "../../model/Note";
 import { Tag } from "../../model/Tag";
+import useStore from "../../store/store";
 
-const NoteList = ({ availableTags, notes }: NoteListProps) => {
+const NoteList = ({ notes }: NoteListProps) => {
   const [selectedTags, setSelectedTags] = useState<Tag[]>([]);
   const [title, setTitle] = useState<string>("");
-
+  const availableTags = useStore((state) => state.tags);
   const filteredNotes = useMemo(() => {
     return notes.filter((note) => {
       return (

@@ -23,14 +23,6 @@ export type NoteFormProps = {
   availableTags: Tag[];
 } & Partial<NoteData>;
 
-export type NewNoteProps = {
-  availableTags: Tag[];
-};
-
-export type EditNoteProps = {
-  availableTags: Tag[];
-};
-
 export type DeleteNote = {
   deleteNote: (id: string) => void;
 };
@@ -40,16 +32,5 @@ export type NoteLayoutProps = {
 };
 
 export type NoteListProps = {
-  availableTags: Tag[];
   notes: NoteDetail[];
-};
-
-export type RawNote = {
-  id: string;
-} & RawNoteData;
-
-export type RawNoteData = {
-  title: string;
-  markdown: string;
-  tagIds: string[];
 };

@@ -1,9 +1,8 @@
 import React from "react";
 import NoteForm from "../../components/NoteForm";
-import type { NewNoteProps } from "../../model/Note";
 import useStore from "../../store/store";
 
-const NewNote = ({ availableTags }: NewNoteProps) => {
+const NewNote = () => {
   const store = useStore((state) => state);
   return (
     <div className="container mx-auto mt-2">
@@ -11,7 +10,7 @@ const NewNote = ({ availableTags }: NewNoteProps) => {
       <NoteForm
         onSubmit={store.setNote}
         onAddTag={store.setTag}
-        availableTags={availableTags}
+        availableTags={store.tags}
       />
     </div>
   );

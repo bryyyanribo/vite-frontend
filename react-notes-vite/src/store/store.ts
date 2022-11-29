@@ -1,5 +1,5 @@
 import create from "zustand";
-import type { Note, NoteData, RawNote, RawNoteData } from "../model/Note";
+import type { Note, NoteData } from "../model/Note";
 import { v4 as uuidV4 } from "uuid";
 import { Tag } from "../model/Tag";
 

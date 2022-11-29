@@ -1,7 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useNote } from "./NoteLayout";
 import ReactMarkdown from "react-markdown";
-import type { DeleteNote } from "../../model/Note";
 import useStore from "../../store/store";
 
 export function Note() {
