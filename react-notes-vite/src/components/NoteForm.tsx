@@ -24,7 +24,7 @@ const NoteForm = ({
       title: titleRef.current!.value,
       markdown: bodyRef.current!.value,
       tags: selectedTags,
-      tagIds: selectedTags.map((tag) => tag.id)
+      tagIds: selectedTags.map((tag) => tag.id),
     });
 
     navigate("..");
@@ -73,7 +73,6 @@ const NoteForm = ({
             }}
           />
         </div>
-
         <div className="mb-2">
           <label htmlFor="body">Body</label>
           <textarea
@@ -102,5 +101,4 @@ const NoteForm = ({
     </div>
   );
 };
-
 export default NoteForm;

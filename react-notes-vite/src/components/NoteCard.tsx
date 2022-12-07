@@ -17,16 +17,14 @@ const NoteCard = ({ id, title, tags }: NoteDetail) => {
 
             <div className="space-x-2">
               {tags.length > 0 &&
-                tags.map((item) => {
-                  return (
-                    <span
-                      key={item.id}
-                      className="inline-block py-1.5 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-blue-600 text-white rounded"
-                    >
-                      {item.label}
-                    </span>
-                  );
-                })}
+                tags.map(item => (
+                  <span
+                    key={item.id}
+                    className="inline-block py-1.5 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-blue-600 text-white rounded"
+                  >
+                    {item.label}
+                  </span>
+                ))}
             </div>
           </div>
         </div>
